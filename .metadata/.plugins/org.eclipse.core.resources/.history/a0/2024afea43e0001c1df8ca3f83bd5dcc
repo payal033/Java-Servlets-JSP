@@ -1,0 +1,32 @@
+package com.trainings.project.controllers;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.trainings.project.daos.CouponDAO;
+
+/**
+ * Servlet implementation class CouponController
+ */
+@WebServlet("/coupons")
+public class CouponController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private CouponDAO dao = new CouponDAO();
+       
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	
+	}
+	
+	public void createCoupon() {
+		
+		
+		
+	}
+
+}

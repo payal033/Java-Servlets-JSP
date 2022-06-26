@@ -1,0 +1,25 @@
+package com.trainings.project.daos;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.trainings.project.model.Product;
+import com.trainings.project.util.ConnectionUtil;
+
+public class ProductDAO {
+	
+	public void saveProduct(Product product) {
+		Connection con = ConnectionUtil.getConnection();
+		String query = "insert into product(name, description, price) values (?,?,?)";
+		try {
+			PreparedStatement stmt = con.prepareStatement(query);
+			stmt.setString(1, product.getProductName());
+			stmt.setString(2, product.getDescription());
+			stmt.setDouble(3, product.getPrice());
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}	
+	}
+}

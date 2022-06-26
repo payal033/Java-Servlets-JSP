@@ -1,0 +1,13 @@
+127.0.0.1 - - [12/May/2022:22:27:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:27:46 +0530] "GET /ServletBasics/addition.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:28:07 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:29:31 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2022:22:29:54 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:30:56 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2022:22:40:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:41:03 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:41:09 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2022:22:44:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:44:30 +0530] "GET /ServletBasics/hello HTTP/1.1" 200 76
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:44:57 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [12/May/2022:22:47:43 +0530] "GET /ServletBasics/addition?num1=10&num1=20&submit=Submit+Query HTTP/1.1" 200 -

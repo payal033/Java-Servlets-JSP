@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlibversion>2.0</tlibversion>
+<jspversion>2.0</jspversion>
+<shortname>userinformation</shortname>
+<info>This library displays user info</info>
+<uri>http://user.com</uri>
+
+<tag>
+	<name>displayuser</name>
+	<tagclass></tagclass>
+	<info>Displays users first name and last name</info>
+</tag>
+
+</taglib>

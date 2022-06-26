@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product & Coupon App</title>
+</head>
+<body>
+	<h2>Product & Coupon App</h2>
+	<p>
+		<a href="createProduct.jsp">Create Product</a>
+	</p>
+	<div>
+		<a href="createCoupon.jsp">Create Coupon</a>
+	</div>
+	<div>
+		<a href="findCoupon.jsp">Find Coupon</a>
+	</div>
+</body>
+</html>

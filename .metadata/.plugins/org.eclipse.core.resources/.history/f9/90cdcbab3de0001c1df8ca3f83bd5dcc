@@ -1,0 +1,15 @@
+package com.trainings.project.daos;
+
+import java.sql.Connection;
+
+import com.trainings.project.model.Coupon;
+import com.trainings.project.util.ConnectionUtil;
+
+public class CouponDAO {
+	
+	public void save(Coupon coupon) {
+		Connection con = ConnectionUtil.getConnection();
+		
+	}
+
+}

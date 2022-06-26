@@ -1,0 +1,31 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"   %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSTL Demo</title>
+</head>
+<body>
+<c:out value="${10+20 }"></c:out>
+
+<c:set var="score" scope="application" value="${10+50}" />
+<p>Before: <c:out value="${score}" ></c:out></p>
+<c:remove var="score"/>
+<p>After: <c:out value="${score}" ></c:out></p>
+
+<c:set var="testscore" scope="session" value="${70}" />
+<c:if test="${testscore >= 80}" >
+<p>You score is awesome! <c:out value="${testscore}" ></c:out></p>
+</c:if>
+
+<c:choose>
+<c:when test="${testscore >= 80}">A Grade</c:when>
+<c:when test="${testscore >= 60 && testscore < 80}">B Grade</c:when>
+<c:otherwise>C Grade :(</c:otherwise>
+</c:choose>
+
+
+
+</body>
+</html>

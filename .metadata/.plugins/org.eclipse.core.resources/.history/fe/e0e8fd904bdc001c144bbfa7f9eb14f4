@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Product</title>
+</head>
+<body>
+	<form method="post" action="displayDetails.jsp">
+		<table>
+			<tr>
+			<td>Product Id</td>
+			<td><input type="text" name="product_id" ></td>
+			</tr>
+			
+			<tr>
+			<td>Product Name</td>
+			<td><input type="text" name="product_name" ></td>
+			</tr>
+			
+			<tr>
+			<td>Description</td>
+			<td><input type="text" name="description" ></td>
+			</tr>
+			
+			<tr>
+			<td>Price</td>
+			<td><input type="text" name="price" ></td>
+			</tr>
+			
+			<td><input type="submit" value="Add Product"></td>
+			
+		</table>
+	</form>
+</body>
+</html>

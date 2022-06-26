@@ -1,0 +1,5 @@
+package com.trainings.project.controllers;
+
+public class CouponController {
+
+}

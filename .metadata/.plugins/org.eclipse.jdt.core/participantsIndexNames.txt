@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2395628480.index
+\JSPErrorHandling\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\86165233.index
+\JSTLApp\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2644142495.index
+\MVCDemo\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\151586783.index
+\JSPActions\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\499836567.index
+\JSPCustomTag\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\142819641.index
+\JSPBasics\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\527596081.index
+\FinalProject\src
+E:\Payal\Learning\Java Full Stack\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3940166477.index
+\JSPErrorHandling\src

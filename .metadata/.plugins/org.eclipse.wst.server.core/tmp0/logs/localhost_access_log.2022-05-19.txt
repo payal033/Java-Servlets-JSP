@@ -1,0 +1,13 @@
+127.0.0.1 - - [19/May/2022:22:25:02 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [19/May/2022:23:03:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:03:48 +0530] "GET /PreparedStmtDemo/addProduct.html HTTP/1.1" 200 655
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:04:11 +0530] "POST /PreparedStmtDemo/addProduct HTTP/1.1" 405 747
+127.0.0.1 - - [19/May/2022:23:07:19 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:07:20 +0530] "GET /PreparedStmtDemo/addProduct.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:07:50 +0530] "POST /PreparedStmtDemo/addProduct HTTP/1.1" 200 34
+127.0.0.1 - - [19/May/2022:23:12:44 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:12:45 +0530] "GET /PreparedStmtDemo/updateProduct.html HTTP/1.1" 200 450
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:12:54 +0530] "POST /PreparedStmtDemo/updateProduct HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:13:10 +0530] "POST /PreparedStmtDemo/updateProduct HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [19/May/2022:23:24:48 +0530] "GET /PreInitDemo/PreInitializationDemo HTTP/1.1" 404 788
+127.0.0.1 - - [19/May/2022:23:25:13 +0530] "GET / HTTP/1.1" 404 751
